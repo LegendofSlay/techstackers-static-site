@@ -10,139 +10,66 @@ export default function TermsOfService() {
     <div className="bg-gray-50 py-12">
       <div className="container mx-auto px-4 max-w-4xl">
         <div className="bg-white rounded-lg shadow-lg p-8 md:p-12">
-          <h1 className="text-4xl font-bold text-gray-900 mb-6">Terms of Service</h1>
+          <h1 className="text-4xl font-bold text-gray-900 mb-6">Terms & Conditions</h1>
           
-          <p className="text-gray-600 mb-8">
-            Last updated: {new Date().toLocaleDateString()}
+          <p className="text-gray-700 mb-8 leading-relaxed">
+            These terms and conditions apply to the Auto Budget app (hereby referred to as "Application") for mobile devices that was created by Tech Stackers (hereby referred to as "Service Provider") as a Freemium service.
           </p>
 
-          <div className="space-y-8 text-gray-700 leading-relaxed">
-            <section>
-              <h2 className="text-2xl font-semibold text-gray-900 mb-4">1. Agreement to Terms</h2>
+          <div className="space-y-6 text-gray-700 leading-relaxed">
+            <p>
+              Upon downloading or utilizing the Application, you are automatically agreeing to the following terms. It is strongly advised that you thoroughly read and understand these terms prior to using the Application.
+            </p>
+
+            <p>
+              Unauthorized copying, modification of the Application, any part of the Application, or our trademarks is strictly prohibited. Any attempts to extract the source code of the Application, translate the Application into other languages, or create derivative versions are not permitted. All trademarks, copyrights, database rights, and other intellectual property rights related to the Application remain the property of the Service Provider.
+            </p>
+
+            <p>
+              The Service Provider is dedicated to ensuring that the Application is as beneficial and efficient as possible. As such, they reserve the right to modify the Application or charge for their services at any time and for any reason. The Service Provider assures you that any charges for the Application or its services will be clearly communicated to you.
+            </p>
+
+            <p>
+              The Application stores and processes personal data that you have provided to the Service Provider in order to provide the Service. It is your responsibility to maintain the security of your phone and access to the Application. The Service Provider strongly advise against jailbreaking or rooting your phone, which involves removing software restrictions and limitations imposed by the official operating system of your device. Such actions could expose your phone to malware, viruses, malicious programs, compromise your phone's security features, and may result in the Application not functioning correctly or at all.
+            </p>
+
+            <p>
+              Please be aware that the Service Provider does not assume responsibility for certain aspects. Some functions of the Application require an active internet connection, which can be Wi-Fi or provided by your mobile network provider. The Service Provider cannot be held responsible if the Application does not function at full capacity due to lack of access to Wi-Fi or if you have exhausted your data allowance.
+            </p>
+
+            <p>
+              If you are using the application outside of a Wi-Fi area, please be aware that your mobile network provider's agreement terms still apply. Consequently, you may incur charges from your mobile provider for data usage during the connection to the application, or other third-party charges. By using the application, you accept responsibility for any such charges, including roaming data charges if you use the application outside of your home territory (i.e., region or country) without disabling data roaming. If you are not the bill payer for the device on which you are using the application, they assume that you have obtained permission from the bill payer.
+            </p>
+
+            <p>
+              Similarly, the Service Provider cannot always assume responsibility for your usage of the application. For instance, it is your responsibility to ensure that your device remains charged. If your device runs out of battery and you are unable to access the Service, the Service Provider cannot be held responsible.
+            </p>
+
+            <p>
+              In terms of the Service Provider's responsibility for your use of the application, it is important to note that while they strive to ensure that it is updated and accurate at all times, they do rely on third parties to provide information to them so that they can make it available to you. The Service Provider accepts no liability for any loss, direct or indirect, that you experience as a result of relying entirely on this functionality of the application.
+            </p>
+
+            <p>
+              The Service Provider may wish to update the application at some point. The application is currently available as per the requirements for the operating system (and for any additional systems they decide to extend the availability of the application to) may change, and you will need to download the updates if you want to continue using the application. The Service Provider does not guarantee that it will always update the application so that it is relevant to you and/or compatible with the particular operating system version installed on your device. However, you agree to always accept updates to the application when offered to you. The Service Provider may also wish to cease providing the application and may terminate its use at any time without providing termination notice to you. Unless they inform you otherwise, upon any termination, (a) the rights and licenses granted to you in these terms will end; (b) you must cease using the application, and (if necessary) delete it from your device.
+            </p>
+
+            <section className="mt-8">
+              <h2 className="text-2xl font-semibold text-gray-900 mb-4">Changes to These Terms and Conditions</h2>
+              <p className="mb-4">
+                The Service Provider may periodically update their Terms and Conditions. Therefore, you are advised to review this page regularly for any changes. The Service Provider will notify you of any changes by posting the new Terms and Conditions on this page.
+              </p>
+              <p className="font-semibold">
+                These terms and conditions are effective as of 2026-01-24
+              </p>
+            </section>
+
+            <section className="mt-8">
+              <h2 className="text-2xl font-semibold text-gray-900 mb-4">Contact Us</h2>
               <p>
-                By accessing or using Tech Stackers Android applications and services, you agree to be bound by these 
-                Terms of Service and all applicable laws and regulations. If you do not agree with any of these terms, 
-                you are prohibited from using or accessing our services.
-              </p>
-            </section>
-
-            <section>
-              <h2 className="text-2xl font-semibold text-gray-900 mb-4">2. Use License</h2>
-              <p className="mb-3">
-                Permission is granted to temporarily download one copy of Tech Stackers applications for personal, 
-                non-commercial transitory viewing only. This is the grant of a license, not a transfer of title, and 
-                under this license you may not:
-              </p>
-              <ul className="list-disc pl-6 space-y-2">
-                <li>Modify or copy the materials</li>
-                <li>Use the materials for any commercial purpose or for any public display</li>
-                <li>Attempt to decompile or reverse engineer any software contained in our applications</li>
-                <li>Remove any copyright or other proprietary notations from the materials</li>
-                <li>Transfer the materials to another person or "mirror" the materials on any other server</li>
-              </ul>
-            </section>
-
-            <section>
-              <h2 className="text-2xl font-semibold text-gray-900 mb-4">3. User Accounts</h2>
-              <p className="mb-3">
-                When you create an account with us, you must provide information that is accurate, complete, and current 
-                at all times. Failure to do so constitutes a breach of the Terms, which may result in immediate termination 
-                of your account. You are responsible for:
-              </p>
-              <ul className="list-disc pl-6 space-y-2">
-                <li>Safeguarding the password that you use to access the services</li>
-                <li>Any activities or actions under your account</li>
-                <li>Notifying us immediately upon becoming aware of any breach of security or unauthorized use of your account</li>
-              </ul>
-            </section>
-
-            <section>
-              <h2 className="text-2xl font-semibold text-gray-900 mb-4">4. Prohibited Uses</h2>
-              <p className="mb-3">
-                You may use our services only for lawful purposes and in accordance with these Terms. You agree not to use 
-                our services:
-              </p>
-              <ul className="list-disc pl-6 space-y-2">
-                <li>In any way that violates any applicable national or international law or regulation</li>
-                <li>To transmit, or procure the sending of, any advertising or promotional material without our prior written consent</li>
-                <li>To impersonate or attempt to impersonate Tech Stackers, a Tech Stackers employee, another user, or any other person or entity</li>
-                <li>In any way that infringes upon the rights of others, or in any way is illegal, threatening, fraudulent, or harmful</li>
-                <li>To engage in any other conduct that restricts or inhibits anyone's use or enjoyment of the services</li>
-              </ul>
-            </section>
-
-            <section>
-              <h2 className="text-2xl font-semibold text-gray-900 mb-4">5. Intellectual Property</h2>
-              <p>
-                The services and their original content, features, and functionality are and will remain the exclusive 
-                property of Tech Stackers and its licensors. The services are protected by copyright, trademark, and other 
-                laws of both the United States and foreign countries. Our trademarks and trade dress may not be used in 
-                connection with any product or service without the prior written consent of Tech Stackers.
-              </p>
-            </section>
-
-            <section>
-              <h2 className="text-2xl font-semibold text-gray-900 mb-4">6. Disclaimer</h2>
-              <p>
-                The materials within Tech Stackers applications are provided on an 'as is' basis. Tech Stackers makes no 
-                warranties, expressed or implied, and hereby disclaims and negates all other warranties including, without 
-                limitation, implied warranties or conditions of merchantability, fitness for a particular purpose, or 
-                non-infringement of intellectual property or other violation of rights.
-              </p>
-            </section>
-
-            <section>
-              <h2 className="text-2xl font-semibold text-gray-900 mb-4">7. Limitations of Liability</h2>
-              <p>
-                In no event shall Tech Stackers or its suppliers be liable for any damages (including, without limitation, 
-                damages for loss of data or profit, or due to business interruption) arising out of the use or inability to 
-                use the materials on Tech Stackers applications, even if Tech Stackers or a Tech Stackers authorized 
-                representative has been notified orally or in writing of the possibility of such damage.
-              </p>
-            </section>
-
-            <section>
-              <h2 className="text-2xl font-semibold text-gray-900 mb-4">8. Indemnification</h2>
-              <p>
-                You agree to defend, indemnify, and hold harmless Tech Stackers and its licensee and licensors, and their 
-                employees, contractors, agents, officers, and directors, from and against any and all claims, damages, 
-                obligations, losses, liabilities, costs or debt, and expenses arising from your use of and access to the 
-                services, or your violation of these Terms.
-              </p>
-            </section>
-
-            <section>
-              <h2 className="text-2xl font-semibold text-gray-900 mb-4">9. Termination</h2>
-              <p>
-                We may terminate or suspend your account and bar access to the services immediately, without prior notice 
-                or liability, under our sole discretion, for any reason whatsoever and without limitation, including but 
-                not limited to a breach of the Terms. Upon termination, your right to use the services will immediately cease.
-              </p>
-            </section>
-
-            <section>
-              <h2 className="text-2xl font-semibold text-gray-900 mb-4">10. Governing Law</h2>
-              <p>
-                These Terms shall be governed and construed in accordance with the laws of the applicable jurisdiction, 
-                without regard to its conflict of law provisions. Our failure to enforce any right or provision of these 
-                Terms will not be considered a waiver of those rights.
-              </p>
-            </section>
-
-            <section>
-              <h2 className="text-2xl font-semibold text-gray-900 mb-4">11. Changes to Terms</h2>
-              <p>
-                We reserve the right, at our sole discretion, to modify or replace these Terms at any time. If a revision 
-                is material, we will provide at least 30 days' notice prior to any new terms taking effect. What constitutes 
-                a material change will be determined at our sole discretion.
-              </p>
-            </section>
-
-            <section>
-              <h2 className="text-2xl font-semibold text-gray-900 mb-4">12. Contact Information</h2>
-              <p>
-                If you have any questions about these Terms of Service, please contact us through our GitHub repository or 
-                via the contact information provided in our Android applications.
+                If you have any questions or suggestions about the Terms and Conditions, please do not hesitate to contact the Service Provider at{" "}
+                <a href="mailto:techstackerstm@gmail.com" className="text-[#3d5e7d] hover:underline">
+                  techstackerstm@gmail.com
+                </a>.
               </p>
             </section>
           </div>
